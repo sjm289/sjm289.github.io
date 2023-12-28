@@ -35,6 +35,8 @@ jobs:
     steps:
       - name: Install Hugo CLI
         run: |
+          ls
+          pwd
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
@@ -54,7 +56,11 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          ls
+          pwd
           cd site
+          ls
+          pwd
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
