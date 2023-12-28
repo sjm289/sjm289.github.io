@@ -1,8 +1,9 @@
-baseurl      = "sjm289.github.com"
+baseurl      = "https://sjm289.github.com/"
 title        = "blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+publishDir   = "public"
 
 [params]
   dateform        = "Jan 2, 2006"
