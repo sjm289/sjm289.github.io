@@ -1,4 +1,4 @@
-baseurl      = "https://sjm289.github.com/"
+baseurl      = "https://soumyajyotiii.com/"
 title        = "blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -41,7 +41,6 @@ publishDir   = "public"
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
 
     [languages.en.params.logo]
       logoText = "#root/"
