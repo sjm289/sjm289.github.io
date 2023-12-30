@@ -43,7 +43,7 @@ publishDir   = "public"
   [languages.en.params]
 
     [languages.en.params.logo]
-      logoText = "#root/"
+      logoText = "#root~$"
       logoHomeLink = "/"
     # or
     #
