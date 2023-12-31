@@ -45,7 +45,7 @@ publishDir   = "public"
     [languages.en.params.logo]
       logoText = "#root~$"
       logoHomeLink = "/"
-    # or
+    # or##
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
