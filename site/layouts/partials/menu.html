@@ -1,0 +1,22 @@
+<nav class="menu">
+    <ul class="menu__inner">
+        {{- $currentPage := . -}}
+        {{ range .Site.Menus.main -}}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{- end }}
+
+        {{- if .Site.Params.EnableGlobalLanguageMenu }}
+        <div class="submenu">
+            <li class="dropdown">
+                <div class="dropdown-content">
+                    {{ if .Site.IsMultiLingual }}
+                        {{ range $.Translations }}
+                            <a title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </li>
+        </div>
+        {{- end }}
+    </ul>
+</nav>
