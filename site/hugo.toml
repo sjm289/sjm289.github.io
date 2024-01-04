@@ -28,6 +28,11 @@ publishDir   = "public"
   keywords = "homepage, blog"
   images = [""]
 
+    [params.portrait]
+    path = "/images/avatartion.png"
+    alt = "Soumyajyoti"
+    maxWidth = "200px"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -61,4 +66,3 @@ publishDir   = "public"
     name       = "tech"
     url        = "/tech"
 
-    
