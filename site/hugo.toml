@@ -12,7 +12,9 @@ publishDir   = "public"
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Everything not saved will be lost ~ Nintendo ''quit screen'"
+  homeSubtitle = """
+  Soumyajyoti here, and I am the guy from the last feel good movie you saw. Apart from nerding out,<br>
+   on computer stuff I do enjoy ocassional rants on how The Office is >>> any other sitcom."""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -31,7 +33,7 @@ publishDir   = "public"
     [params.portrait]
     path = "/images/avatartion.png"
     alt = "Soumyajyoti"
-    maxWidth = "200px"
+    maxWidth = "150px"
 
 [taxonomies]
     category = "blog"
@@ -40,7 +42,8 @@ publishDir   = "public"
 
 [languages]
   [languages.en]
-    title = "Soumyajyoti"
+    tabTitle = "Soumyajyoti"
+    title = "Hey!! 👋 "
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -65,4 +68,24 @@ publishDir   = "public"
     identifier = "tech"
     name       = "tech"
     url        = "/tech"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/sjm289"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/soumyajyoti-devops/"
+
+[[params.social]]
+  name = "email"
+  url = "mailto:soumyajyoti.1999@gmail.com"
+
+
+[[params.social]]
+  name = "instagram"
+  url = "https://www.instagram.com/soumyajyotiii/"
+
+
+ 
 
