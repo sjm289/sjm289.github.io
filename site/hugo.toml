@@ -14,7 +14,7 @@ publishDir   = "public"
   # Subtitle for home
   homeSubtitle = """
   Soumyajyoti here, and I am the guy from the last feel good movie you saw. Apart from nerding out,<br>
-   on computer stuff I do enjoy ocassional rants on how The Office is >>> any other sitcom."""
+   on computer stuff I do enjoy occassional rants on how The Office is >>> any other sitcom."""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
