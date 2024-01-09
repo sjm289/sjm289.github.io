@@ -1,4 +1,4 @@
-baseurl      = "http://localhost:1313"
+baseurl      = "https://www.soumyajyotiii.com/"
 title        = "blog"
 languageCode = "en-us"
 theme        = "hugo-theme-hello-friend-ng"
@@ -13,8 +13,8 @@ publishDir   = "public"
 
   # Subtitle for home
   homeSubtitle = """
-  Soumyajyoti here, and I am the guy from the last feel good movie you saw. Apart from nerding out,
-   on computer stuff I do enjoy occassional rants on how The Office is >>> any other show on 🌍"""
+  Soumyajyoti here, and I am the guy from the last feel good movie you saw. Apart from nerding out
+   on computer stuff, I do enjoy occassional rants on how The Office is >>> any other show on 🌍"""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
