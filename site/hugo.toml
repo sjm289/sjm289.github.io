@@ -1,4 +1,4 @@
-baseurl      = "https://sjm289.github.io/"
+baseurl      = "http://localhost:1313"
 title        = "blog"
 languageCode = "en-us"
 theme        = "hugo-theme-hello-friend-ng"
