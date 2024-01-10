@@ -55,7 +55,7 @@ jobs:
           HUGO_ENV: production
         run: |
           cd site
-          hugo --baseURL "${{ steps.pages.outputs.base_url }}/ -D"
+          hugo --baseURL "${{ steps.pages.outputs.base_url }}/" -D
           cd ..
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
