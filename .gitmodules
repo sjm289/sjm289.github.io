@@ -1,9 +1,12 @@
 [submodule "site/themes/hello-friend-ng"]
 	path = site/themes/hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
-[submodule "site/themes/hugo-theme-hello-friend-ng"]
-	path = site/themes/hugo-theme-hello-friend-ng
-	url = git@github.com:sjm289/hugo-theme-hello-friend-ng.git
 [submodule "site/themes/--force"]
 	path = site/themes/--force
+	url = git@github.com:sjm289/hugo-theme-hello-friend-ng.git
+[submodule "themes"]
+	path = themes
+	url = git@github.com:sjm289/hugo-theme-hello-friend-ng.git
+[submodule "site/themes/hugo-theme-hello-friend-ng"]
+	path = site/themes/hugo-theme-hello-friend-ng
 	url = git@github.com:sjm289/hugo-theme-hello-friend-ng.git

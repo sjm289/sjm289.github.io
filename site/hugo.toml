@@ -2,6 +2,7 @@ baseurl      = "https://www.soumyajyotiii.com/"
 title        = "blog"
 languageCode = "en-us"
 theme        = "hugo-theme-hello-friend-ng"
+pluralizelisttitles = false
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -41,8 +42,8 @@ disableHugoGeneratorInject = false
 
   # Subtitle for home
   homeSubtitle = """
-  Soumyajyoti here, and I am the guy from the last feel good movie you saw. Apart from nerding out
-   on computer stuff, I do enjoy occassional rants on how The Office is >>> any other show on 🌍"""
+  Soumyajyoti here, and I'm the guy from the last feel good movie you saw. Occassionaly you can see me nerding out
+   on computer stuff, but I do enjoy constant rants on how 'The Office' >>> any show on 🌍. Also, love binging on chiropractic stuff 🤪"""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -88,15 +89,7 @@ disableHugoGeneratorInject = false
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "blog"
-    url        = "/blog"
 
-  [[menu.main]]
-    identifier = "tech"
-    name       = "tech"
-    url        = "/tech"
 
 [[params.social]]
   name = "github"
@@ -115,6 +108,15 @@ disableHugoGeneratorInject = false
   name = "instagram"
   url = "https://www.instagram.com/soumyajyotiii/"
 
+[menu]
+  [[menu.main]]
+    identifier = "candid"
+    name       = "candid"
+    url        = "candid/"
+  [[menu.main]]
+    identifier = "tech"
+    name       = "tech"
+    url        = "tech/"
 
  
 
