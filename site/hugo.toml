@@ -42,8 +42,8 @@ disableHugoGeneratorInject = false
 
   # Subtitle for home
   homeSubtitle = """
-  Soumyajyoti here, and I'm the guy from the last feel good movie you saw. Occassionaly you can see me nerding out
-   on computer stuff, but I do enjoy constant rants on how 'The Office' >>> any show on 🌍. Also, love binging on chiropractic stuff 🤪"""
+  Soumyajyoti here, and I'm like the charecter from a feel good movie. Occassionaly you can see me nerding out
+   and ranting on computer stuff. My 5-9 after my 9-5 generally consists of me drooling over satisfying Chiropractic ASMR videos 🤪"""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
